@@ -14,13 +14,18 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--color-dark);
+  color: var(--color-text);
+  background-color: var(--color-white-background);
   font-weight: 500;
 }
 
 .link {
   text-decoration: none;
   color: var(--color-dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .logo {
@@ -40,11 +45,20 @@ body {
 }
 
 .logo-studio {
-  color: var(--color-text);
+  color: var(--color-dark);
+}
+.list {
+  list-style: none;
 }
 
+.address-item {
+  font-style: normal;
+}
 .link-address {
   color: var(--color-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .link-address:hover,
@@ -58,9 +72,14 @@ font-family: "Raleway", sans-serif;
 }
 
 .filter-button {
+  color: var(--color-primary-brand);
   background-color: var(--color-light);
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .filter-button:hover,
@@ -102,7 +121,7 @@ font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .title-section {
@@ -113,7 +132,7 @@ font-family: "Raleway", sans-serif;
   color: var(--color-white-background);
   background-color: var(--color-primary-brand);
   cursor: pointer;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -143,7 +162,7 @@ font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .header-secondary {
@@ -159,4 +178,24 @@ font-family: "Raleway", sans-serif;
 }
 .header-secondary-empty {
   color: var(--color-white-background);
+}
+
+.section-tertiary {
+  background-color: var(--color-light);
+}
+
+.team-list {
+  background-color: var(--color-white-background);
+}
+
+.title-empty {
+  color: var(--color-white-background);
+}
+
+.header-secondary-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
 }
